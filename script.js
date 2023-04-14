@@ -11,8 +11,8 @@ let classadded;
 let flag = true;
 
 function getRowAndCol() {
-  row = prompt("Rows");
-  col = prompt("Cols");
+  row = prompt("Add Rows less than 100");
+  col = prompt("Add Columns less than 100");
 
   if (row <= 1 || col <= 1) {
     comment.innerHTML = "";
